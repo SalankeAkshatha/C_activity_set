@@ -1,0 +1,14 @@
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set> cd "c:\Users\saksh\OneDrive\Desktop\C_activity_set\set01\" ; if ($?) { gcc problem04.c -o problem04 } ; if ($?) { .\problem04 }
+Enter a number:3
+Enter a number:3
+The sum of 3 +3 is 6
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set01> git add .
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set01> git commit -m "test"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set01> git push
+Everything up-to-date
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set01> gcc problem04.c -O0 -g
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set01> 

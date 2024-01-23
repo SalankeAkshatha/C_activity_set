@@ -1,0 +1,17 @@
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set> git add .
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set> git commit -m "problem01debug.txt"
+[main 4d26af9] problem01debug.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 set01/problem01debug.txt
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set> git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 316 bytes | 316.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/SalankeAkshatha/C_activity_set.git
+   bc179ed..4d26af9  main -> main
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set> git push .
+Everything up-to-date

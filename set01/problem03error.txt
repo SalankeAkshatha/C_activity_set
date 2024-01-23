@@ -1,0 +1,27 @@
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set01> gbd a.exe
+gbd : The term 'gbd' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, 
+or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ gbd a.exe
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (gbd:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set01> git add .
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set01> git commit -m "problem03error.txt"
+[main 0385579] problem03error.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 set01/problem03error.txt
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set01> git push 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 320 bytes | 320.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/SalankeAkshatha/C_activity_set.git
+   a76f27c..0385579  main -> main
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set01> git push
+Everything up-to-date
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set01> 

@@ -1,0 +1,25 @@
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set> cd "c:\Users\saksh\OneDrive\Desktop\C_activity_set\set01\" ; if ($?) { gcc problem05.c -o problem05 } ; if ($?) { .\problem05 }
+enter the values
+2
+enter the values
+3
+enter the values
+8
+the largest of 2,3,8 is 8
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set01> git add .
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set01> git commit -m "test"
+[main 3ba86d3] test
+ 1 file changed, 42 insertions(+), 1 deletion(-)
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set01> git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 576 bytes | 576.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/SalankeAkshatha/C_activity_set.git
+   f566039..3ba86d3  main -> main
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set01> git push
+Everything up-to-date
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set01> gcc problem05.c -O0 -g

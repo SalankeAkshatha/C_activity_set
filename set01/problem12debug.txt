@@ -1,0 +1,31 @@
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set> cd "c:\Users\saksh\OneDrive\Desktop\C_activity_set\set01\" ; if ($?) { gcc problem12.c -o problem12 } ; if ($?) { .\problem12 }
+Enter the number of complex numbers to add: 2
+Enter complex number 1:
+Enter the real part of the complex number: 4 
+Enter the imaginary part of the complex number: 5
+Enter complex number 2:
+Enter the real part of the complex number: 9
+Enter the imaginary part of the complex number: 1
+Sum of 2 complex numbers:
+Complex Number 1: 4.00 + 5.00i
+Complex Number 2: 9.00 + 1.00i
+Result: 13.00 + 6.00i
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set01> git add .
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set01> git commit -m "test"
+[main 96ea768] test
+ 3 files changed, 73 insertions(+)
+ create mode 100644 set01/problem12debug.txt
+ create mode 100644 set01/problem12error.txt
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set01> git push 
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 877 bytes | 877.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/SalankeAkshatha/C_activity_set.git
+   5388b34..96ea768  main -> main
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set01> git push
+Everything up-to-date
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set01> gcc -g -O0 problem12.c

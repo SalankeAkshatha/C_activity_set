@@ -1,0 +1,21 @@
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set> cd "c:\Users\saksh\OneDrive\Desktop\C_activity_set\set01\" ; if ($?) { gcc problem07.c -o problem07 } ; if ($?) { .\problem07 }
+Enter a natural number: 8
+The sum of natural numbers up to 8 is: 36
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set01> git add .
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set01> git commit -m "test"
+[main f272b82] test
+ 1 file changed, 42 insertions(+)
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set01> git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 571 bytes | 571.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/SalankeAkshatha/C_activity_set.git
+   7eca2fa..f272b82  main -> main
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set01> 
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set01> git push
+Everything up-to-date
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set01> gcc -g -O0 problem07.c

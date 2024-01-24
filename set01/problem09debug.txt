@@ -1,0 +1,5 @@
+ PS C:\Users\saksh\OneDrive\Desktop\C_activity_set> cd "c:\Users\saksh\OneDrive\Desktop\C_activity_set\set01\" ; if ($?) { gcc problem09.c -o problem09 } ; if ($?) { .\problem09 }
+Enter number: 12
+
+Square root of 12.0 is 3.5
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set01> gcc -g -O0 problem09.c

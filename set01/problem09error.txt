@@ -1,0 +1,37 @@
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set01> gdb a.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\saksh\OneDrive\Desktop\C_activity_set\set01\a.exe...done.
+(gdb) b main
+Breakpoint 1 at 0x40146e: file problem09.c, line 11.
+(gdb) r
+Starting program: C:\Users\saksh\OneDrive\Desktop\C_activity_set\set01/a.exe
+[New Thread 21144.0x245c]
+[New Thread 21144.0xab4]
+
+Breakpoint 1, main () at problem09.c:11
+11          number = input();
+(gdb) s
+input () at problem09.c:19
+19          printf("Enter number: ");
+(gdb) s
+Enter number: 20            scanf("%f", &num);
+(gdb) s
+
+q 
+21          return num;
+(gdb) q
+A debugging session is active.
+
+        Inferior 1 [process 21144] will be killed.
+
+Quit anyway? (y or n) y
+error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set01>

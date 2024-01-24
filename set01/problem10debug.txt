@@ -1,0 +1,5 @@
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set> cd "c:\Users\saksh\OneDrive\Desktop\C_activity_set\set01\" ; if ($?) { gcc problem10.c -o problem10 } ; if ($?) { .\problem10 }
+Enter string1:2
+Enter string2:3
+3 is greater than 2
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set01> gcc -g -O0 problem10.c

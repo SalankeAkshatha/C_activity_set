@@ -1,0 +1,15 @@
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set> cd "c:\Users\saksh\OneDrive\Desktop\C_activity_set\set02\" ; if ($?) { gcc problem01.c -o problem01 } ; if ($?) { .\problem01 }
+Enter the base of the triangle: 30
+Enter the height of the triangle: 10 
+Base: 30.00
+Height: 10.00
+Area: 150.00
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set02> git add .
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set02> git commit -m "test"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set02> git push
+Everything up-to-date
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set02> gcc problem01.c -O0 -g

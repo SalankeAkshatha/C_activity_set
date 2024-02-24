@@ -21,13 +21,10 @@ void output(float base, float height, float area) {
 int main() {
     float base, height, area;
 
-    // Input
     input(&base, &height);
 
-    // Calculate area
     find_area(base, height, &area);
 
-    // Output
     output(base, height, area);
 
     return 0;

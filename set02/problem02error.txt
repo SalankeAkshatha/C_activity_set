@@ -1,0 +1,6 @@
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set> cd "c:\Users\saksh\OneDrive\Desktop\C_activity_set\set02\" ; if ($?) { gcc problem02.c -o problem02 } ; if ($?) { .\problem02 }
+problem02.c: In function 'output':
+problem02.c:41:1: error: parameter name omitted
+ void output(int a, int b, int c, int)
+ ^~~~
+problem02.c:41:1: error: expected '{' at end of input

@@ -1,0 +1,17 @@
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set02> cd "c:\Users\saksh\OneDrive\Desktop\C_activity_set\set02\" ; if ($?) { gcc problem02.c -o problem02 } ; if ($?) { .\problem02 }
+Enter the lengths of the sides of the triangle:
+Enter side length: 4
+Enter side length: 5
+Enter side length: 4
+Triangle with sides 4, 5, 4 is not scalene.
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set02> git push 
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 2.03 KiB | 416.00 KiB/s, done.
+Total 9 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), completed with 3 local objects.
+To https://github.com/SalankeAkshatha/C_activity_set.git
+   8eaff82..31019ce  main -> main
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set02> gcc problem02.c -O0 -g

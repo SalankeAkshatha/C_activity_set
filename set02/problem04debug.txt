@@ -1,0 +1,10 @@
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set> cd "c:\Users\saksh\OneDrive\Desktop\C_activity_set\set02\" ; if ($?) { gcc problem04.c -o problem04 } ; if ($?) { .\problem04 }
+Enter the size of the array: 1 2 7 8 12
+Enter 1 numbers:
+Sum of composite numbers in the array: 0
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set02> git add .
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set02> git commit -m "test"
+[main 19fd596] test
+ 3 files changed, 112 insertions(+)
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set02> gcc -g -O0 problem04.c
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set02> git push

@@ -1,0 +1,23 @@
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set> cd "c:\Users\saksh\OneDrive\Desktop\C_activity_set\set02\" ; if ($?) { gcc problem06.c -o problem06 } ; if ($?) { .\problem06 }
+Enter a string: hello
+Original string: hello
+Reversed string: olleh
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set02> git add .
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set02> git commit -m 
+error: switch `m' requires a value
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set02> git commit -m "test"
+[main b4d6a3c] test
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 set02/problem06debug.txt
+ create mode 100644 set02/problem06error.txt
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set02> git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 316 bytes | 158.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/SalankeAkshatha/C_activity_set.git
+   e5afe80..b4d6a3c  main -> main
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set02> gcc -g -O0 problem06.c

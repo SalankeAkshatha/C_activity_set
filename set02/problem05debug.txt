@@ -1,0 +1,21 @@
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set> cd "c:\Users\saksh\OneDrive\Desktop\C_activity_set\set02\" ; if ($?) { gcc problem05.c -o problem05 } ; if ($?) { .\problem05 }
+Enter a number: 12
+Enter a number: 16
+The GCD of 12 and 16 is: 4
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set02> git add .
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set02> git commit -m "test"
+[main 35f5eb6] test
+ 3 files changed, 81 insertions(+)
+ create mode 100644 set02/problem04debug.txt
+ create mode 100644 set02/problem04error.txt
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set02> git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.48 KiB | 505.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
+To https://github.com/SalankeAkshatha/C_activity_set.git
+   19fd596..35f5eb6  main -> main
+PS C:\Users\saksh\OneDrive\Desktop\C_activity_set\set02> gcc -g -O0 problem05.c
